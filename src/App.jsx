@@ -8,8 +8,8 @@ import banapene from "../src/assets/banapene.jpg";
 const questions = [
   {
     question: "Banda preferida de mi adolescencia",
-    options: ["Don Adams", "Guasones"],
-    answer: "Don Adams",
+    options: ["Village People", "Guasones (el tituuuuu)"],
+    answer: "Guasones (el tituuuuu)",
   },
   {
     question: "Tic cuando estoy acostado",
