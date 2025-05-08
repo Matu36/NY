@@ -3,6 +3,7 @@ import Swal from "sweetalert2";
 import durmiendoVideo from "../src/assets/durmiendoNY.mp4";
 import bananero from "../src/assets/bananero.jpg";
 import "./App.css";
+import banapene from "../src/assets/banapene.jpg";
 
 const questions = [
   {
@@ -89,11 +90,15 @@ function App() {
     const percentage = (score / questions.length) * 100;
 
     if (percentage >= 70) {
-      Swal.fire(
-        "¡Me conoces rey!",
-        "Venite al club house el día que vos quieras",
-        "success"
-      );
+      Swal.fire({
+        title: "¡Me conoces rey!",
+        text: "Venite al club house el día 24/5 a las 21 HS en CAMPOS DE ROCA 2",
+        imageUrl: banapene,
+        imageHeight: 200,
+        confirmButtonText: "Alta facha",
+        background: "#fffbe6",
+        icon: "success",
+      });
     } else {
       Swal.fire("Mmm...", "A chuparla, I love Franky langdon");
     }
